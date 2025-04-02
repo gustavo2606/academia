@@ -1,40 +1,52 @@
-console.log("Gustavo")
-console.log("17")
-console.warn("atenção")
-console.error("um erro") 
-
-let nome = "Gustavo"
-let idade = 38
-let telefone = null
-console.log(nome,idade)
-nome = "Gustavo Ribeiro"
-console.log(nome)
-
-let nomeCompleto = ""
-nomeCompleto = prompt("informe seu nome completo")
-console.log("nomeCompleto")
-//alert("seja bem vindo(a)" + nomeCompleto)
-//document.write("seja bem vindo(a)" +  nomeCompleto)
-let cor = prompt("informe uma cor: \n 1 azul \n 2 vermelho \n 3 preto \n 4 verde \n 5 rosa \n 6 roxo")
-let corDeFundo = null
-
-if(cor == "1"){
-    corDeFundo = "blue"
-}else if(cor == "2"){
-    corDeFundo = "red"
-}else if(cor == "3"){
-    corDeFundo = "black"
-}else if(cor == "4"){
-    corDeFundo = "green"
-}else if(cor == "5"){
-    corDeFundo = "pink"
-}else if(cor == "6"){
-    corDeFundo = "Purple"
+function fnsaudacao(){
+    let nomeCompleto = ("")
+nomeCompleto = prompt("informe seu nome completo:")
+alert("Seja bem vindo(a) " + nomeCompleto + " ao meu site! ")
 }
 
+ 
+function fnTrocarDeCorFundo() {
+    let cor = prompt("Informe uma cor: \n 1-azul \n 2-Vermelho \n 3-preto \n 4-Verde \n 5-Rosa \n 6-Laranja")
+    let corDeFundo = null
+ 
+    if (cor == "1") {
+        corDeFundo = "blue"
+    }
+    else if (cor == "2") {
+        corDeFundo = "red"
+    }
+    else if (cor == "3") {
+        corDeFundo = "black"
+    }
+    else if (cor == "4") {
+        corDeFundo = "green"
+    }
+    else if (cor == "5") {
+        corDeFundo = "pink"
+    }
+    else if (cor == "6") {
+        corDeFundo = "orange"
+    }
+    else {
+        corDeFundo = "yellow"
+    }
+    document.body.style.backgroundColor = corDeFundo
+}
 
+function fnMostrarHoraAtual(){
+    const agora = new Date();
+        const horas = String(agora.getHours()).padStart(2, '0');
+        const minutos = String(agora.getMinutes()).padStart(2, '0');
+        const segundos = String(agora.getSeconds()).padStart(2, '0');
+        
+        alert(`Hora atual: ${horas}:${minutos}:${segundos}`);
+    
 
+    // Chama a função a cada 5 segundos (para não encher de alerts rapidamente)
+    setInterval(mostrarHora, 5000);
+} 
 
+function fnTrocarTitulo(){
+    document.getElementById("titulo").innerText = prompt ("")
 
-document.body.style.backgroundColor = corDeFundo
-
+}
