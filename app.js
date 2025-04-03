@@ -50,3 +50,21 @@ function fnTrocarTitulo(){
     document.getElementById("titulo").innerText = prompt ("")
 
 }
+
+function fnIdiomaPortugues(){
+    document.getElementById("menu1").innerText = "INICIAL"
+    document.getElementById("menu2").innerText = "SERVIÇOS"
+    document.getElementById("menu3").innerText = "CONTATO"
+}
+
+function fnIdiomaIngles(){
+    document.getElementById("menu1").innerText = "HOME"
+    document.getElementById("menu2").innerText = "SERVICES"
+    document.getElementById("menu3").innerText = "CONTACT"
+}
+
+function fnIdiomaJapones(){
+    document.getElementById("menu1").innerText = "家"
+    document.getElementById("menu2").innerText = "サービス"
+    document.getElementById("menu3").innerText = "接触"
+}
