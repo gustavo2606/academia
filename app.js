@@ -68,3 +68,15 @@ function fnIdiomaJapones(){
     document.getElementById("menu2").innerText = "サービス"
     document.getElementById("menu3").innerText = "接触"
 }
+
+function fnBanner1(){
+    document.getElementById("banner").src= "imagens/imagem1.jpg"
+}
+
+function fnBanner2(){
+    document.getElementById("banner").src= "imagens/banner2.jpg"
+}
+
+function fnBanner3(){
+    document.getElementById("banner").src= "imagens/banner3.jpg"
+}
