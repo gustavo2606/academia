@@ -104,6 +104,12 @@ table {
     justify-content: space-evenly;
 }
 
+.imagens-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
 
 
 
