@@ -52,7 +52,7 @@ table {
     width: 1200px;
     margin: 0 auto;
     font-family: Oswald;
-    background-color: rgb(0, 0, 0); 
+    background-color:  #3C3D37;
     
 }
 
@@ -108,7 +108,92 @@ table {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    margin-top: 50px;
 }
+
+.titulo-contato{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 50px;
+    font-size: 50PX;
+}
+
+.campo-formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(0, 0, 0, 0,5);
+    border-radius: 5px;
+    background-color: #3C3D37;
+    width: 800px;
+    height: 600px;
+    margin-top: 50px;
+}
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 30px;
+}
+.campo-form{
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    border: 1px solid #3C3D37;
+    border-radius: 5px;
+    width: 400px;
+    background-color: #fdfffc;
+}
+.campo-form::placeholder {
+    color: #000000;
+    opacity: 0.5;
+}
+.titulo-form{
+    font-size: 28px;
+    font-weight: 500;
+    color: #000000;
+}
+.campo-form-mensagem{
+    font-size: 16px;
+    line-height: 23px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    border: 1px solid #3C3D37;
+    border-radius: 5px;
+    width: 400px;
+    height: 200px;
+    background-color: #181C14;
+}
+.campo-form-mensagem::placeholder {
+    color: #000000;
+    opacity: 0.5;
+}
+
+.botao {
+    margin-top: 30px;
+    background-color: #f2c22d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-bottom: 30px;
+  }
+
+  .rodape{
+    background-color: #3C3D37;
+    padding-top: 300px;
+  }
 
 
 

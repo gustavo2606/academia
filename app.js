@@ -80,3 +80,11 @@ function fnBanner2(){
 function fnBanner3(){
     document.getElementById("banner").src= "imagens/banner3.jpg"
 }
+
+function fnRegistrarContato(){
+    let nome = document.getElementById("nome").value
+    let email = document.getElementById("email").value
+    let mensagem = document.getElementById("mensagem").value
+    let informacoesCompleta = nome + " - " + email + "<br>" + mensagem
+    document.getElementById("informacoes").innerHTML = informacoesCompleta
+}
